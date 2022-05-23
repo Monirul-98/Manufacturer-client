@@ -1,50 +1,50 @@
 [
   {
     "_id": 1,
-    "name": "Gaming case",
-    "img": "https://p.globalsources.com/IMAGES/PDT/S1184966990/computer-case.jpg",
-    "description": "2020 micro ATX Gaming Computer  Case with Tempered Glass Soeyi Latest Gaming Model The substitute of high-end gaming case with advanced design and outstanding performance",
-    "minOrder": 300,
-    "price": 1750
+    "name": "Samsung T5 Portable 500GB SSD",
+    "img": "https://www.startech.com.bd/image/cache/catalog/ssd/samsung/t5-ssd/t5-500x500.jpg",
+    "description": "he Samsung Portable SSD T5 elevates data transfer speeds to the next level and unleashes a new experience in external storage. With a compact and durable design and password protection, the T5 is truly easy to carry and stores data securely.With Samsung V-NAND flash memory and a USB 3.1 Gen 2 interface, the T5 provides transfer speeds of up to 540 MB/s, that’s up to 4.9x faster than external HDD. ",
+    "minOrder": 70,
+    "price": 6550,
+    "type": "V-NAND",
+    "brand": "Samsung T5",
+    "size": "500GB",
+    "interface": "Compatible with USB 3.1 Gen2 (10Gbps), backwards compatible"
   },
   {
     "_id": 2,
-    "name": "DDR3 Mother Board",
-    "img": "https://p.globalsources.com/IMAGES/PDT/S1187834412/ddr3-mother-board.jpg",
-    "description": "2020 micro ATX Gaming Computer  Case with Tempered Glass Soeyi Latest Gaming Model The substitute of high-end gaming case with advanced design and outstanding performance",
-    "minOrder": 300,
-    "price": 1750
+    "name": "Asus H81M-K 4th Gen Motherboard",
+    "img": "https://www.startech.com.bd/image/cache/catalog/motherboard/asus/h81m-k/h81m-k-01-500x500.jpg",
+    "description": "The Asus H81M-K 4th Gen Motherboard comes with the Intel H81 chipset is a single-chipset design that supports socket LGA1150 4th generation Intel Core i7/i5/i3/Pentium/Celeron processors. This motherboard supports Intel 4th generation Core i7/i5/i3/Pentium/Celeron processors in the LGA1150 package, with iGPU, memory, and PCI Express controllers integrated to support onboard graphics output with dedicated chipsets, 2-channel (2 DIMM) DDR3 memory, and 16 PCI Express lanes.",
+    "minOrder": 30,
+    "price": 5000,
+    "type": "DDR3",
+    "brand": "Asus H81M-K",
+    "chipset": "Intel H81",
+    "version": "64 Mb Flash ROM, UEFI AMI BIOS, PnP, DMI2.0, WfM2.0, SM BIOS 2.7, ACPI 2.0a, Multi-language BIOS, ASUS EZ Flash 2, ASUS CrashFree BIOS 3, My Favorites, Quick Note, Last Modified log, F12 PrintScreen, F3 Shortcut functions and ASUS DRAM SPD (Serial Presence Detect) memory information"
   },
   {
     "_id": 3,
-    "name": "DDR4 32GB Ram",
-    "img": "https://p.globalsources.com/IMAGES/PDT/S1178541556/DDR4-32GB-RAM.jpg",
-    "description": "2020 micro ATX Gaming Computer  Case with Tempered Glass Soeyi Latest Gaming Model The substitute of high-end gaming case with advanced design and outstanding performance",
-    "minOrder": 300,
-    "price": 1750
+    "name": "DDR4 4GB Ram",
+    "img": "https://www.startech.com.bd/image/cache/catalog/ram/apacer/apacer-4gb-ddr4-2666mhz/apacer-4gb-ddr4-2666mhz-01-500x500.jpg",
+    "description": "he Apacer 4GB DDR4 2666MHz Desktop RAM is fast and energy-efficient. Transfer speeds of up to 2,133Mbps, 17GB per second, and 1.2v power savings of up to 25% are possible. Platforms from the Intel 100 and 200 series are supported. Allows your computer to run in a steady, dependable environment. ",
+    "minOrder": 100,
+    "price": 1150,
+    "type": "DDR4",
+    "brand": "Apacer 4GB DDR4 2666MHz",
+    "size": "4GB",
+    "version": "AMD Radeon RX 6800 XT"
   },
   {
     "_id": 4,
     "name": "Graphics Card",
-    "img": "https://p.globalsources.com/IMAGES/PDT/S1189089441/Computer-Hardware-Graphics-Card.jpg",
-    "description": "2020 micro ATX Gaming Computer  Case with Tempered Glass Soeyi Latest Gaming Model The substitute of high-end gaming case with advanced design and outstanding performance",
-    "minOrder": 300,
-    "price": 1750
-  },
-  {
-    "_id": 5,
-    "name": "SSD",
-    "img": "https://p.globalsources.com/IMAGES/PDT/S1190120991/2-5inch-SSD.jpg",
-    "description": "2020 micro ATX Gaming Computer  Case with Tempered Glass Soeyi Latest Gaming Model The substitute of high-end gaming case with advanced design and outstanding performance",
-    "minOrder": 300,
-    "price": 1750
-  },
-  {
-    "_id": 6,
-    "name": "USB Wired Vertical Mouse",
-    "img": "https://p.globalsources.com/IMAGES/PDT/S1189314423/Usb-Wired-Vertical-mouse.jpg",
-    "description": "2020 micro ATX Gaming Computer  Case with Tempered Glass Soeyi Latest Gaming Model The substitute of high-end gaming case with advanced design and outstanding performance",
-    "minOrder": 300,
-    "price": 1750
+    "img": "https://www.startech.com.bd/image/cache/catalog/graphics-card/gigabyte/geforce-gt-730/geforce-gt-730-01-500x500.jpg",
+    "description": "You can increase your computer's video performance over integrated graphics with a GeForce GT 730 Graphics Card. This version of the GT 730 card features with Core Clock and 300W System power supply. The GPU core is connected to the 2GB of DDR3 with a 64-bit Memory Bus.",
+    "minOrder": 20,
+    "price": 15550,
+    "type": "DDR3",
+    "brand": " RX 6800 xt Graphics card",
+    "size": "2GB",
+    "version": "AMD Radeon RX 6800 XT"
   }
 ]

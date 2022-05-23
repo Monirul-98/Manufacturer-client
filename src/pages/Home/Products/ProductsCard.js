@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ProductsCard = ({ product }) => {
   const { name, img, description, minOrder, price } = product;
@@ -10,14 +11,16 @@ const ProductsCard = ({ product }) => {
         </figure>
         <div className="card-body">
           <h2 className="card-title">{name}</h2>
-          <p>{description}</p>
+          <p>{description.slice(0, 160)}...</p>
           <p>Minimum Order: {minOrder}</p>
           <p>
             Price: {price}
             <small>/piece</small>
           </p>
           <div className="card-actions justify-end">
-            <button className="btn btn-primary">Buy now</button>
+            <Link to="/purchase">
+              <button className="btn btn-primary">Buy now</button>
+            </Link>
           </div>
         </div>
       </div>

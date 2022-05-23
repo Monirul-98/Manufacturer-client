@@ -5,7 +5,7 @@ import ProductsCard from "./ProductsCard";
 
 const Products = () => {
   const { isLoading, data: products } = useQuery("products", () =>
-    fetch("products.json").then((res) => res.json())
+    fetch("http://localhost:5000/products").then((res) => res.json())
   );
   if (isLoading) {
     return <Loading></Loading>;
