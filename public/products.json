@@ -2,49 +2,49 @@
   {
     "_id": 1,
     "name": "Gaming case",
-    "img": "../images/computer-case.jpg",
+    "img": "https://p.globalsources.com/IMAGES/PDT/S1184966990/computer-case.jpg",
     "description": "2020 micro ATX Gaming Computer  Case with Tempered Glass Soeyi Latest Gaming Model The substitute of high-end gaming case with advanced design and outstanding performance",
-    "min-order": 300,
+    "minOrder": 300,
     "price": 1750
   },
   {
     "_id": 2,
-    "name": "Gaming case",
-    "img": "../images/ddr3-mother-board.jpg",
+    "name": "DDR3 Mother Board",
+    "img": "https://p.globalsources.com/IMAGES/PDT/S1187834412/ddr3-mother-board.jpg",
     "description": "2020 micro ATX Gaming Computer  Case with Tempered Glass Soeyi Latest Gaming Model The substitute of high-end gaming case with advanced design and outstanding performance",
-    "min-order": 300,
+    "minOrder": 300,
     "price": 1750
   },
   {
     "_id": 3,
-    "name": "Gaming case",
-    "img": "../images/DDR4-32GB-RAM.jpg",
+    "name": "DDR4 32GB Ram",
+    "img": "https://p.globalsources.com/IMAGES/PDT/S1178541556/DDR4-32GB-RAM.jpg",
     "description": "2020 micro ATX Gaming Computer  Case with Tempered Glass Soeyi Latest Gaming Model The substitute of high-end gaming case with advanced design and outstanding performance",
-    "min-order": 300,
+    "minOrder": 300,
     "price": 1750
   },
   {
     "_id": 4,
-    "name": "Gaming case",
-    "img": "../images/graphics.jpg",
+    "name": "Graphics Card",
+    "img": "https://p.globalsources.com/IMAGES/PDT/S1189089441/Computer-Hardware-Graphics-Card.jpg",
     "description": "2020 micro ATX Gaming Computer  Case with Tempered Glass Soeyi Latest Gaming Model The substitute of high-end gaming case with advanced design and outstanding performance",
-    "min-order": 300,
+    "minOrder": 300,
     "price": 1750
   },
   {
     "_id": 5,
-    "name": "Gaming case",
-    "img": "../images/SSD.jpg",
+    "name": "SSD",
+    "img": "https://p.globalsources.com/IMAGES/PDT/S1190120991/2-5inch-SSD.jpg",
     "description": "2020 micro ATX Gaming Computer  Case with Tempered Glass Soeyi Latest Gaming Model The substitute of high-end gaming case with advanced design and outstanding performance",
-    "min-order": 300,
+    "minOrder": 300,
     "price": 1750
   },
   {
     "_id": 6,
-    "name": "Gaming case",
-    "img": "../images/Usb-Wired-Vertical-mouse.jpg",
+    "name": "USB Wired Vertical Mouse",
+    "img": "https://p.globalsources.com/IMAGES/PDT/S1189314423/Usb-Wired-Vertical-mouse.jpg",
     "description": "2020 micro ATX Gaming Computer  Case with Tempered Glass Soeyi Latest Gaming Model The substitute of high-end gaming case with advanced design and outstanding performance",
-    "min-order": 300,
+    "minOrder": 300,
     "price": 1750
   }
 ]
