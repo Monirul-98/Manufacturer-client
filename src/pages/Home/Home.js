@@ -3,11 +3,11 @@ import Banner from "./Banner";
 import BusinessSummary from "./BusinessSummary";
 import Products from "./Products/Products";
 
-const Home = () => {
+const Home = ({ setProduct }) => {
   return (
     <div>
       <Banner></Banner>
-      <Products></Products>
+      <Products setProduct={setProduct}></Products>
       <BusinessSummary></BusinessSummary>
     </div>
   );
