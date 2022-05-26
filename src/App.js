@@ -12,6 +12,12 @@ import RequireAuth from "./pages/Login/RequireAuth";
 import { useState } from "react";
 import { ToastContainer } from "react-toastify";
 import NotFound from "./pages/NotFound/NotFound";
+import Dashboard from "./pages/Dashboard/Dashboard";
+import Profile from "./pages/Dashboard/Profile";
+import AddReview from "./pages/Dashboard/AddReview";
+import AddProduct from "./pages/Dashboard/AddProduct";
+import AllUser from "./pages/Dashboard/AllUser";
+import ManageOrders from "./pages/Dashboard/ManageOrders";
 
 function App() {
   const [product, setProduct] = useState({});
@@ -29,6 +35,23 @@ function App() {
             </RequireAuth>
           }
         ></Route>
+        <Route
+          path="/dashboard"
+          element={
+            <RequireAuth>
+              <Dashboard></Dashboard>
+            </RequireAuth>
+          }
+        >
+          <Route index element={<Profile></Profile>}></Route>
+          <Route path="addReview" element={<AddReview></AddReview>}></Route>
+          <Route path="users" element={<AllUser></AllUser>}></Route>
+          <Route path="addProduct" element={<AddProduct></AddProduct>}></Route>
+          <Route
+            path="manageOrder"
+            element={<ManageOrders></ManageOrders>}
+          ></Route>
+        </Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/signup" element={<SignUp></SignUp>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>

@@ -4,7 +4,11 @@ import Loading from "../../Shared/Loading";
 import ProductsCard from "./ProductsCard";
 
 const Products = ({ setProduct }) => {
-  const { isLoading, data: products } = useQuery("products", () =>
+  const {
+    isLoading,
+    data: products,
+    refetch,
+  } = useQuery("products", () =>
     fetch("http://localhost:5000/products").then((res) => res.json())
   );
   if (isLoading) {
@@ -19,6 +23,7 @@ const Products = ({ setProduct }) => {
             key={product._id}
             product={product}
             setProduct={setProduct}
+            refetch={refetch}
           ></ProductsCard>
         ))}
       </div>
