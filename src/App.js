@@ -18,6 +18,7 @@ import AddReview from "./pages/Dashboard/AddReview";
 import AddProduct from "./pages/Dashboard/AddProduct";
 import AllUser from "./pages/Dashboard/AllUser";
 import ManageOrders from "./pages/Dashboard/ManageOrders";
+import MyOrders from "./pages/Dashboard/MyOrders";
 
 function App() {
   const [product, setProduct] = useState({});
@@ -51,6 +52,7 @@ function App() {
             path="manageOrder"
             element={<ManageOrders></ManageOrders>}
           ></Route>
+          <Route path="myOrders" element={<MyOrders></MyOrders>}></Route>
         </Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/signup" element={<SignUp></SignUp>}></Route>
