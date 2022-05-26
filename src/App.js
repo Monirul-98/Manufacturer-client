@@ -19,6 +19,7 @@ import AddProduct from "./pages/Dashboard/AddProduct";
 import AllUser from "./pages/Dashboard/AllUser";
 import ManageOrders from "./pages/Dashboard/ManageOrders";
 import MyOrders from "./pages/Dashboard/MyOrders";
+import Myportfolio from "./pages/Myportfolio/Myportfolio";
 
 function App() {
   const [product, setProduct] = useState({});
@@ -28,6 +29,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home setProduct={setProduct}></Home>}></Route>
         <Route path="/blog" element={<Blogs></Blogs>}></Route>
+        <Route path="/portfolio" element={<Myportfolio></Myportfolio>}></Route>
         <Route
           path="/purchase"
           element={
