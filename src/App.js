@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
+import "react-toastify/dist/ReactToastify.css";
 import Home from "./pages/Home/Home";
 import Login from "./pages/Login/Login";
 import SignUp from "./pages/Login/SignUp/SignUp";
@@ -9,6 +10,8 @@ import Blogs from "./pages/Blogs/Blogs";
 import Purchase from "./pages/Purchase/Purchase";
 import RequireAuth from "./pages/Login/RequireAuth";
 import { useState } from "react";
+import { ToastContainer } from "react-toastify";
+import NotFound from "./pages/NotFound/NotFound";
 
 function App() {
   const [product, setProduct] = useState({});
@@ -28,8 +31,10 @@ function App() {
         ></Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/signup" element={<SignUp></SignUp>}></Route>
+        <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>
+      <ToastContainer></ToastContainer>
     </div>
   );
 }

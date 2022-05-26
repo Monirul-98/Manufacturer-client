@@ -72,7 +72,7 @@ const Purchase = ({ product }) => {
         onSubmit={handlePurchase}
         className="grid grid-cols-1 gap-4 my-7 justify-items-center "
       >
-        <label class="label">
+        <label class="label block mr-52">
           <span class="label-text">Minimum order:</span>
         </label>
         <input
@@ -83,13 +83,19 @@ const Purchase = ({ product }) => {
           className="input input-bordered w-full max-w-xs"
         />
 
-        <label class="label">
+        <label class="label block mr-60">
           <span class="label-text">Available:</span>
         </label>
         <input
           type="number"
           disabled
           value={available}
+          className="input input-bordered w-full max-w-xs"
+        />
+
+        <input
+          type="number"
+          placeholder="Your Order"
           className="input input-bordered w-full max-w-xs"
         />
 

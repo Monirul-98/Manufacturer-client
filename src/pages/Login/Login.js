@@ -164,7 +164,7 @@ const Login = () => {
             </form>
             <p>
               <small>
-                New to Doctors's Portal?
+                New to Hardware Bulkd?
                 <Link className="text-primary" to="/signup">
                   {" "}
                   Create new account
