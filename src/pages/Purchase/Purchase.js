@@ -144,6 +144,8 @@ const Purchase = ({ product }) => {
         <input
           type="number"
           name="order"
+          min={minOrder}
+          max={available}
           placeholder="Your Order"
           className="input input-bordered w-full max-w-xs"
         />
