@@ -30,7 +30,7 @@ const AllUser = () => {
               <th></th>
               <th>Email</th>
               <th></th>
-              <th>Favorite Color</th>
+              <th></th>
             </tr>
           </thead>
           <tbody>
