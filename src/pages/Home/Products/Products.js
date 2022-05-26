@@ -9,7 +9,9 @@ const Products = ({ setProduct }) => {
     data: products,
     refetch,
   } = useQuery("products", () =>
-    fetch("http://localhost:5000/products").then((res) => res.json())
+    fetch("https://warm-badlands-34406.herokuapp.com/products").then((res) =>
+      res.json()
+    )
   );
   if (isLoading) {
     return <Loading></Loading>;

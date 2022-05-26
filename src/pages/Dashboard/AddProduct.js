@@ -33,7 +33,7 @@ const AddProduct = () => {
           };
           console.log(product);
           //Send data to database
-          fetch("http://localhost:5000/allProducts", {
+          fetch("https://warm-badlands-34406.herokuapp.com/allProducts", {
             method: "POST",
             headers: {
               "content-type": "application/json",

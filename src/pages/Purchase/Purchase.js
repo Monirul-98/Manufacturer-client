@@ -32,7 +32,7 @@ const Purchase = ({ product }) => {
       customerName: user.displayName,
       phone: event.target.phone.value,
     };
-    fetch("http://localhost:5000/booking", {
+    fetch("https://warm-badlands-34406.herokuapp.com/booking", {
       method: "POST",
       headers: {
         "content-type": "application/json",
